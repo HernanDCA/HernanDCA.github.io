@@ -1,21 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Hernán DCA</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de Vida</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>First 👍</h1>
-    <h2>Second ✌</h2>
-    <h3>Third 🤟</h3>
-    <h4>Fourth 🖖</h4>
-    <h5>Fifth 🖐</h5>
-    <h6>Sixth 🖐👍</h6>
-    <button class="personal_style">Send 👍</button>
-    <!-- <p><head>Hello World 🌎</head></p> -->
-    
-</body>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="container-lg my-2"> -->
+    <div id="pdf-content" class="container-lg">
+      <div class="row shadow-lg rounded-4 overflow-hidden">
+        <!-- Columna Izquierda -->
+        <div class="col-md-4 bg-primary text-white p-4">
+          <header class="text-center mb-4">
+            <img
+              src="img/hernan.jpg"
+              class="img-fluid rounded-rectangle border border-5 border-white mb-3"
+              alt="Foto de perfil"
+            />
+            <h1 class="fw-bold mb-1">HERNAN DARIO CASTAÑEDA ARANGO</h1>
+            <h2 class="h5 text-light">Ingeniero Informatico actualmente 2° semestre</h2>
+          </header>
+          <!--  Contacto -->
+          <section class="mb-4">
+            <h5 class="fw-bold">
+              <i class="fa-solid fa-address-card me-3 mb-3"></i> Contacto
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="https://wa.me/+573044131737?text=Hola%20te%20voy%20a%20contratar%20ya"
+                  class="text-white"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-whatsapp me-2"></i> +57 3044131737
+                </a>
+              </li>
+              <li class="mb-2 print">
+                <i class="fas fa-envelope me-2"></i>
+                hernan.castaneda66104@ucaldas.edu.co
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i>
+                Manizales, Caldas
+              </li>
+              <li class="mb-2">
+                <i class="fab fa-linkedin me-2"></i>
+                linkedin.com/in/hernandariocastanedaarango/
+              </li>
+              <li class="mb-2 print">
+                <a
+                  href="https://github.com/HernanDCA"
+                  target="_blank"
+                  class="text-white"
+                >
+                  <i class="fab fa-github me-2"></i>
+                  github.com/HernanDCA
+                </a>
+              </li>
+            </ul>
+          </section>
+          <!-- Habilidades -->
+          <section class="mb-4">
+            <h5 class="fw-bold mb-3">
+              <i class="fas fa-code me-2"></i>
+              Habilidades
+            </h5>
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Inglés</span>
+                <span>70%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Francés</span>
+                <span>50%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Adobe Ilustrator</span>
+                <span>80%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Autocad</span>
+                <span>75%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>HTML</span>
+                <span>15%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Python</span>
+                <span>15%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Java</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 8px">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="col-md-8 bg-light p-4">
+          <section class="mb-5">
+            <h4 class="fw-bold text-primary mb-4">
+              <i class="fas fa-briefcase me-2"></i>
+              Experiencia Laboral
+            </h4>
+            
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">
+                  Técnico operativo Zonas de Estacionamiento Regulado
+                </h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2022 - 2024
+                </h5>
+                <h6 class="text-primary">People Contact</h6>
+                <ul class="mt-3">
+                    <li>Programación turnos y zonas a orientadores de
+                        Zonas azules y naranjas</li>
+                    <li>Elaboración nómina de los empleados adscritos al programa y reporte de novedades para
+                        procesos disciplinarios</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">
+                  Diseñador gráfico y técnico en manejo de cortadora láser
+                </h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2019 - 2022
+                </h5>
+                <h6 class="text-primary">ArqLaser</h6>
+                <ul class="mt-3">
+                    <li>Diseño gráfico de piezas 2D con programa Adobe Ilustrator o Autocad</li>
+                    <li>Corte o marca en cortadora laser de diseños en diversos materiales</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">
+                  Técnico Teléfonos públicos
+                </h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2016 - 2019
+                </h5>
+                <h6 class="text-primary">Energía Integral Andina</h6>
+                <ul class="mt-3">
+                    <li>Mantenimiento preventivo y correctivo de los teléfonos públicos CELSA,CONNECT Y CS DE TIGO-UNE
+                     y todos suscomponentes electromecánicos (selector de monedas y compartimento de cobro)</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+          <section class="mb-5">
+            <h4 class="fw-bold text-primary mb-4">
+              <i class="fas fa-graduation-cap me-2"></i>
+              Educación
+            </h4>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2022
+                </h5>
+                <h6 class="text-primary">SENA Regional Caldas</h6>
+                <ul class="mt-3">
+                  <li>Tarjeta profesional Copnia 053567-0711769 CLD</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Tecnólogo en electrónica</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">2009</h5>
+                <h6 class="text-primary">Universidad de Caldas</h6>
+                <ul class="mt-3">
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">                
+                <h4 class="card-title fw-bold">Ciberseguridad de Google</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2024
+                </h5>
+                <h6 class="text-primary">Google - Coursera</h6>
+                <ul class="mt-3">                    
+                    <li>Fundamentos de la ciberseguridad</li>
+                    <li>Gestiona los riesgos de seguridad</li>
+                    <li>Redes y seguridad de redes</li>
+                    <li>Linux y SQL</li>
+                    <li>Activos, amenazas y vulnerabilidades</li>
+                    <li>Detección y respuesta</li>
+                    <li>Automatiza las tareas de ciberseguridad con Python</li>
+                    <li ><a href="https://coursera.org/verify/professional-cert/08973KXVLGAM">
+                        https://coursera.org/verify/professional-cert/08973KXVLGAM</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Artificial Inteligence</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2024
+                </h5>
+                <h6 class="text-primary">IBM - Coursera</h6>
+                <ul class="mt-3">
+                    <li>Introduction to Artificial Intelligence (AI)</li>
+                    <li>Generative AI: Prompt Engineering Basics</li>
+                    <li>Generative AI: Elevate Your Data Science Career</li>
+                    <li><a href="https://coursera.org/verify/6J8CVOAXI4EE">                        
+                    https://coursera.org/verify/6J8CVOAXI4EE</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Analítica de datos</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2024
+                </h5>
+                <h6 class="text-primary">MinTic - Universidad Fancisco José de Caldas</h6>
+                <ul class="mt-3">
+                    <li>Formación continua 50 horas</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Internet de las cosas IoT</h4>
+                <h5 class="card-subtitle mb-2 text-muted small">
+                  2024
+                </h5>
+                <h6 class="text-primary">MinTic - Universidad Fancisco José de Caldas</h6>
+                <ul class="mt-3">
+                    <li>Formación continua 50 horas</li>
+                </ul>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="text-center my-4">
+      <button onclick="downloadPDF()" class="btn btn-outline-primary">
+        Descargar en PDF
+      </button>
+    </div>
+
+
+<script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script><!--  -->
+    <!-- html2pdf.js CDN -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script> -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
