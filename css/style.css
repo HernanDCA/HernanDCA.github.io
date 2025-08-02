@@ -34,10 +34,24 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.print{
+/*.print{
     font-size: 85%;
 }
+    */
 
+@media print {
+    body, .container-lg {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+    /* Evita cortes en elementos */
+    .no-break {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+}
 
 /* Ancho fijo para exportar siempre igual (8.5 pulgadas * 96px = 816px) */
 
